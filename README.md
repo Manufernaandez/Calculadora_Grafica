@@ -1,2 +1,2 @@
-# Calculadora_Grafica
-Proyecto de una calculadora con interfaz gráfica
+# Proyecto_Calculadora
+ Calculadora con interfaz gráfica

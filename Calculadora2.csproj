@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{434C7231-4570-4178-A9CA-5DD915BE879F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Calculadora2</RootNamespace>
+    <AssemblyName>Calculadora2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\ClsDivision.cs" />
+    <Compile Include="Clases\ClsMultimplicacion.cs" />
+    <Compile Include="Clases\ClsResta.cs" />
+    <Compile Include="Clases\ClsSuma.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-33-26 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-41-33 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-42-39 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-44-23 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-45-30 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-48-12 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-48-45 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-50-13 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-51-23 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-52-14 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-52-14 Códigos de Colores HTML1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-50-13 Códigos de Colores HTML1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-56-46 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-57-37 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 19-58-25 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-03-30 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-03-30 Códigos de Colores HTML1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-06-48 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-07-41 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-08-47 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-10-02 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-11-08 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-11-08 Códigos de Colores HTML1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-12-38 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-13-31 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-14-34 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-15-59 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-16-49 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-17-33 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-18-32 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-19-58 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-24-44 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-34-24 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-35-53 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-36-19 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-21 at 20-36-58 Códigos de Colores HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9258_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9537_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9612_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9646_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9720_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9757_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9836_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9836_html-color-codes.info1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9924_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_91133_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_91158_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_91245_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_91245_html-color-codes.info1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_91349_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_91415_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9178_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_91754_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_91836_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9199_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_91953_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92028_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92053_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92121_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9227_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92243_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92356_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92443_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92518_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92553_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92622_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9271_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92736_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9286_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92836_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_9295_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_92942_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_102653_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_103115_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_103115_html-color-codes.info1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_102653_html-color-codes.info1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_10328_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_103420_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_103557_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_103649_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_103839_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_104011_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_10418_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_104135_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_104216_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_104247_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura web_22-3-2022_104325_html-color-codes.info.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %281%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
