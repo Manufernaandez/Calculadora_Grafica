@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Captura web_22-3-2022_104247_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_104247_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-13-31 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-13-31 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9199_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9199_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-18-32 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-18-32 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_103115_html-color-codes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_103115_html-color-codes.info1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_103649_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_103649_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-14-34 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-14-34 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_91133_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_91133_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_91245_html-color-codes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_91245_html-color-codes.info1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-56-46 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-56-46 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92553_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92553_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-58-25 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-58-25 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_102653_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_102653_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_103839_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_103839_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92028_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92028_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-50-13 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-50-13 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9836_html-color-codes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9836_html-color-codes.info1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-36-58 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-36-58 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_91415_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_91415_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9178_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9178_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_102653_html-color-codes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_102653_html-color-codes.info1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-03-30 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-03-30 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9258_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9258_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_10328_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_10328_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-35-53 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-35-53 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92443_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92443_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9720_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9720_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9757_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9757_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-15-59 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-15-59 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92243_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92243_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_91349_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_91349_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_104325_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_104325_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-42-39 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-42-39 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_104011_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_104011_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_91754_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_91754_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-10-02 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-10-02 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-57-37 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-57-37 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9286_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9286_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-44-23 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-44-23 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-52-14 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-52-14 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_103420_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_103420_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9227_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9227_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-36-19 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-36-19 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-16-49 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-16-49 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-51-23 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-51-23 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-52-14 Códigos de Colores HTML1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-52-14 Códigos de Colores HTML1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-24-44 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-24-44 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-33-26 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-33-26 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92053_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92053_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-06-48 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-06-48 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92736_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92736_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_91953_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_91953_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-17-33 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-17-33 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-48-12 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-48-12 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_104135_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_104135_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9836_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9836_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_91245_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_91245_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92121_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92121_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-34-24 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-34-24 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-11-08 Códigos de Colores HTML1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-11-08 Códigos de Colores HTML1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92518_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92518_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_91158_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_91158_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92622_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92622_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-45-30 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-45-30 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_103557_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_103557_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92356_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92356_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-41-33 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-41-33 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_103115_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_103115_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-12-38 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-12-38 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9924_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9924_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9612_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9612_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-48-45 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-48-45 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92942_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92942_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-11-08 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-11-08 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-08-47 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-08-47 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_92836_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_92836_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-07-41 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-07-41 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_104216_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_104216_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-03-30 Códigos de Colores HTML1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-03-30 Códigos de Colores HTML1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 19-50-13 Códigos de Colores HTML1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 19-50-13 Códigos de Colores HTML1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_10418_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_10418_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-03-21 at 20-19-58 Códigos de Colores HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-03-21 at 20-19-58 Códigos de Colores HTML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_91836_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_91836_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9271_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9271_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9646_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9646_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9295_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9295_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura web_22-3-2022_9537_html-color-codes.info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura web_22-3-2022_9537_html-color-codes.info.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OIP (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
